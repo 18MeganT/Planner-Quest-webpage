@@ -102,9 +102,12 @@
 			<!-- Particles Animation Background. Note that this is disabled because it is incompatible with the video player. -->
 			<!-- <div id='particles' class='particle-bg' ></div> -->
 
-			<!-- Video Background -->
-			<!-- <a id='bgndVideo' class='player' data-property="{videoURL:'#',containment:'#intro',showControls: false,autoPlay:true, mute:true, startAt:0, opacity:1}">My video</a> -->
-			
+			<!-- Video Background
+			This needs YTPlayer plugin Java Script initialization (see end of this file).
+			If this is disabled then the YTPlayer plugin initialization needs to be disabled too, else background images won't be displayed.
+
+			<a id='bgndVideo' class='player' data-property="{videoURL:'#',containment:'#intro',showControls: false,autoPlay:true, mute:true, startAt:0, opacity:1}">My video</a> 
+			-->
 			<div class='container' >
 				<div class='row' >
 					
@@ -881,6 +884,7 @@
 		<script src='bootstrap/js/bootstrap.min.js' ></script>
 		<script src='js/jquery.magnific-popup.min.js' ></script>
 		<script src='js/jquery.ajaxchimp.min.js' ></script>
+		<script src='js/jquery.mb.YTPlayer.min.js' ></script>
 		<script src='js/parallax.min.js' ></script>
 		<script src='js/particles.min.js' ></script>
 		<script src='js/waves.min.js' ></script>
@@ -889,7 +893,7 @@
 		<script src='js/validator.min.js' ></script>
 		<script src='js/smooth-scroll.min.js' ></script>
 		<script src='js/script.js' ></script>
-		<!--
+		<!--This is needed only if using background video in intro section?
 		<script>
 			/*====================================================================
 				YTPlayer Plugin Initialization
