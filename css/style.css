@@ -992,13 +992,13 @@ textarea.form-control{
 	outline:none !important;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	font-size:12px;
+	font-size:14px;
 	position:relative;
 	top:0;
 }
 .contact-form .btn-custom:hover{
 	color:#FFF;
-	background:#202020;
+	background:#0078D7;
 }
 .contact-form .btn-custom:active{
 	top:2px;
@@ -1014,7 +1014,7 @@ textarea.form-control{
 ========================================================*/
 footer{
 	padding:20px 0;
-	background:#202020;
+	background:#400040;
 	overflow:hidden;
 }
 footer p{
@@ -1024,7 +1024,6 @@ footer p{
 	font-weight:300;
 	letter-spacing:1px;
 	margin-top:3px;
-	text-transform:uppercase;
 }
 .footer-social{
 	position:relative;

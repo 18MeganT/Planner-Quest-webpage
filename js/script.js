@@ -170,7 +170,7 @@ $(function(){
 	}
 	$('#contact-form').validator().on('submit', function (e) {
 		if (!e.isDefaultPrevented()) {
-			// If there is no any error in validation then send the message
+			// If there is no error in validation then send the message
 			e.preventDefault();
 			var $this = $(this),
 				//You can edit alerts here
