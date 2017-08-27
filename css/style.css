@@ -534,7 +534,7 @@ body.loaded #preloader{
 	height:1px;
 }
 .screenshots-slider li:hover .overlay{
-	opacity:1;
+	opacity:0.6;
 }
 .owl-controls{
 	margin-top:50px;
